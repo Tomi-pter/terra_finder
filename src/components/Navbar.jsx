@@ -52,7 +52,7 @@ function Navbar() {
           <select
             name=""
             id=""
-            className="appearance-none bg-transparent border border-white text-white rounded-sm px-2 py-1 mr-2 w-24 md:w-32 text-ellipsis overflow-hidden text-xs md:text-base cursor-pointer"
+            className="appearance-none bg-transparent border-[0.25px] border-white text-white rounded-sm px-2 py-1 mr-2 w-24 md:w-32 text-ellipsis overflow-hidden text-xs md:text-base cursor-pointer outline-none"
           >
             <option value="Mainnet" className="text-blue-300">
               Mainnet
@@ -72,7 +72,7 @@ function Navbar() {
           <select
             name=""
             id=""
-            className="appearance-none bg-transparent border border-white text-white rounded-sm px-2 py-1 ml-2 w-20 md:w-28 text-ellipsis overflow-hidden text-xs md:text-base cursor-pointer"
+            className="appearance-none bg-transparent border-[0.25px] border-white text-white rounded-sm px-2 py-1 ml-2 w-20 md:w-28 text-ellipsis overflow-hidden text-xs md:text-base cursor-pointer outline-none"
           >
             {currency.map((cur) => (
               <option value={cur} key={cur} className="text-blue-300">

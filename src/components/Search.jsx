@@ -29,7 +29,7 @@ function Search() {
             name=""
             id=""
             placeholder="Search Block/ Tx/ Account"
-            className="w-full pb-1 text-base md:text-xl appearance-none bg-transparent border-b border-[hsla(0,0%,100%,.9)] text-white placeholder:text-[hsla(0,0%,100%,.35)] placeholder:px-1"
+            className="w-full pb-1 px-1 text-base md:text-xl appearance-none bg-transparent border-b border-[hsla(0,0%,100%,.9)] text-white placeholder:text-[hsla(0,0%,100%,.35)] placeholder:px-1 outline-none"
           />
           <button className="absolute right-0">{searchIcon}</button>
         </div>
