@@ -13,6 +13,7 @@ function Video() {
           className="-z-50 fixed top-1/2 left-1/2 min-h-screen min-w-full bg-cover bg-half w-auto h-auto -translate-x-1/2 -translate-y-1/2 max-w-none"
         >
           <source src={vid} type="video/mp4" />
+          Your browser does not support html5 video
         </video>
       </div>
     </>
